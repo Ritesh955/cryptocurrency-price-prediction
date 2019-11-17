@@ -1,0 +1,90 @@
+html {
+    font-family: "Open Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white;
+    font-weight: 400;
+    height: 100%;
+    position: center;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+/*     background-image: url("1.jpg"); */
+    background-color:black;
+/*     opacity: 0.5; */
+    text-align: center;
+}
+
+#my-heading{
+    color: blue;
+    text-transform: uppercase;
+    
+    text-shadow: 0 0 4px #fff,
+    0 0 4px #fff,
+    0 0 5px #fff,
+    0 0 6px #ff00de,
+    0 0 7px #ff00de,
+    0 0 8px #ff00de,
+    0 0 10px #ff00de,
+    0 0 15px #ff00de;
+  }
+
+/* plotly.js's modebar's z-index is outta the roof by default - lower it down */
+.js-plotly-plot .plotly .modebar {
+    z-index: 0 !important;
+}
+
+#my-dropdown{
+    margin-top : 20px;
+    margin-bottom : 20px;
+    font-weight: 400;
+    font-size:20px;
+    color:black;
+}
+
+#my-graph{
+    margin-top : 20px;
+    margin-bottom : 20px;
+}
+
+#new-graph{
+    margin-top : 20px;
+    margin-bottom : 20px;
+}
+
+.container {
+    padding: 10px;
+    margin: 20px;
+}
+
+body,
+div {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+._dash-loading {
+    position: absolute;
+    overflow: hidden;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #506784;
+    font-size: 14px;
+    height: 100%;
+    width: 100%;
+}
+
+._dash-loading::before {
+    content: '';
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 8px;
+    height: 50px;
+    width: 50px;
+    transform: translateX(-4px);
+    background: url('https://plot.ly/static/webapp/images/plotly-logo-loop.gif') no-repeat center center;
+    background-size: cover;
+    margin-bottom: 10px;
+}
